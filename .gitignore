@@ -1,0 +1,41 @@
+# Visual Studio 기본
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 빌드 결과
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+Output/
+lib/
+
+# 패키지 관리
+packages/
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.pdb
+
+# 기타
+*.log
+*.tmp
+
+# 사용자 설정 파일
+*.vcxproj.user
+*.csproj.user
+*.dbmdl
+
+# publish 폴더
+publish/
+
+# Rider나 기타 IDE
+.idea/
+src/Test/main.cpp
+src/Test/Test.sln
+src/Test/Test.vcxproj
+src/Test/Test.vcxproj.filters
