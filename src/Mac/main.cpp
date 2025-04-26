@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
 	string data = argv[1];
 	string key = argv[2];
 	
-	uint8_t* hmac = HMAC(EVP_sha3_256(), key.c_str(), key.size(), reinterpret_cast<const unsigned char*>(data.c_str()), data.size(), NULL, NULL);
+	uint8_t* hmac = HMAC(EVP_sha256(), key.c_str(), key.size(), reinterpret_cast<const unsigned char*>(data.c_str()), data.size(), NULL, NULL);
 	if (hmac == nullptr) {
 		cerr << "Failed to make hamc \n";
 		return -1;
