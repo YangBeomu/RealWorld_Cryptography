@@ -39,3 +39,4 @@ src/Test/main.cpp
 src/Test/Test.sln
 src/Test/Test.vcxproj
 src/Test/Test.vcxproj.filters
+src/AEAD/AEAD.vcxproj.filters
