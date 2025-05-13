@@ -18,14 +18,8 @@
   * Encrypt-then-MAC
     * AES-CBC-HMAC 구조
 
-<<<<<<< HEAD
-      ![alt text](aes-cbc.png)
-      ![alt text](aes-cbc-hmac.png)
-=======
       ![aes-cbc](https://github.com/user-attachments/assets/552b4165-f176-4cd9-a933-f6329ca61d24)
       ![aes-cbc-hmac](https://github.com/user-attachments/assets/9223ebc5-3ecf-4ab5-b930-777c1e3780c7)
-
->>>>>>> origin/main
 
 ```
 MAC-then-Encrypt
@@ -43,11 +37,7 @@ MAC-then-Encrypt
       * one-time MAC -> many-time MAC (웨그먼-카터 기법)
 
     * 전체구조
-<<<<<<< HEAD
-      ![alt text](aes_gcm.png)
-=======
       ![aes_gcm](https://github.com/user-attachments/assets/acaa527e-102c-4d02-a4fc-04794fc22c66)
->>>>>>> origin/main
 
   * ChaCha20-Poly1305
     * ChaCha20
@@ -55,18 +45,6 @@ MAC-then-Encrypt
       * inner block -> 16 words
       * 20 round -> 1 round call QR(Quarter Round) -> 1QR call Add, Rotate, XOR
 
-<<<<<<< HEAD
-      ![alt text, align=center](image.png)
-      ![alt text](image-1.png)
-      ![alt text](image-3.png)
-      ![alt text](image-4.png)
-    * Poly1305
-      * acc = 0, r -> s (연관 데이터?)
-      ![alt text](image-5.png)
-
-    * 전체구조
-      ![alt text](image-6.png)
-=======
       ![chacha20_enc1](https://github.com/user-attachments/assets/6b0dfe47-4c4b-475b-9400-419a5b213c5d)
       ![chacha20_enc2](https://github.com/user-attachments/assets/727f8659-6292-4dff-87b5-c02efaf00063)
       ![chacha20_enc3](https://github.com/user-attachments/assets/4e70d5ec-badf-4d3f-bead-0d28368b88c7)
@@ -78,8 +56,6 @@ MAC-then-Encrypt
 
     * 전체구조
       ![chacah20_poly1305](https://github.com/user-attachments/assets/07e47a00-87f7-4714-b387-f87883ca2bf2)
-
->>>>>>> origin/main
 
   ```
   논스 오용 방지 : CIV 도입
