@@ -1,3 +1,4 @@
+*.png
 # Visual Studio 기본
 .vs/
 *.user
